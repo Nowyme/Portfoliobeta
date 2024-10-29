@@ -52,7 +52,7 @@ body {
     grid-template-rows: 1fr 100px 1fr;
     grid-gap: 1.5rem;
     width: auto; /* Take full width of the parent section */
-    height: 1060px; /* Take full height of the parent section */
+    height: 95vh; /* Take full height of the parent section */
     box-sizing: border-box; /* Ensures padding/margin do not affect the width/height */
     padding: 20px;
     
@@ -215,18 +215,36 @@ div.one h3{
 
 .five ul li {
     display: flex;
-    align-items: center; /* Align the image and text vertically */
-    gap: 15px; /* Space between the image and text */
-    margin: 10px 0; /* Add space between list items */
-    align-self:center;
+    align-items: center; 
+    gap: 15px;
+    margin: 10px 0;
+    
+    text-align: left;
+   
+    
+    
+    
+     
+}
+
+.five ul li a{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
     
     
      
 }
 
 .five ul li img {
-    width: 80px; /* Adjust the image size */
-    height: auto;
+    width: auto; /* Adjust the image size */
+    height: 70px;
     margin-left: 50px;
 }
 
@@ -245,6 +263,7 @@ div.one h3{
 span {
     font-size: 25px; /* Adjust the text size if needed */
     color: #fff;
+    text-align: center;
 }
 
 
